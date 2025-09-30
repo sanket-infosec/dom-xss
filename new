@@ -1,0 +1,18 @@
+swagger: '2.0'
+info:
+  version: 1.0.0
+  title: POC - External Config Loaded (Benign)
+  description: >
+    This is a benign proof-of-concept OpenAPI/Swagger configuration created
+    by sanket-infosec to demonstrate that a Swagger UI instance will load
+    an external config specified via the `configUrl` parameter.
+    NO malicious code, scripts, or exploit payloads are included.
+paths:
+  /poc/status:
+    get:
+      summary: Proof-of-Concept status
+      description: >
+        This endpoint exists only to show that the external config was loaded.
+      responses:
+        '200':
+          description: OK
